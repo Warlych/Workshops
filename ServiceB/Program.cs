@@ -23,7 +23,7 @@ app.MapPost("/",
             {
                 var result = await orderService.Create(new CreateOrderRequest
                 {
-                    Goods = "..."
+                    Goods = ""
                 });
 
                 return result;
