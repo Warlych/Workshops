@@ -1,0 +1,12 @@
+GET localhost:5025/api/min/notes/
+
+###
+POST localhost:5025/api/min/notes/
+Content-Type: application/json
+
+{
+    "Text": "my first note"
+}
+
+###
+GET localhost:5025/api/min/notes/

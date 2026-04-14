@@ -6,12 +6,4 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\Shared\Shared.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Include="protobuf-net.Grpc.ClientFactory" Version="1.2.2" />
-    </ItemGroup>
-
 </Project>
